@@ -1,0 +1,95 @@
+body{
+    font-family: poppins, sans-serif;
+}
+
+.nav-bar ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.nav-bar li{
+    float: left;
+}
+
+.nav-bar a {
+    display: block; /* torna os links clicáveis em toda a área do item */
+    color: black; /* cor do texto preta */
+    text-align: center; /* centralizar o texto*/
+    padding: 14px 16px; /* espaçamento interno */
+    text-decoration: none; /* remover o sublinhado dos links */
+}
+
+.nav-bar a:hove{
+background-color: #ddd;
+color: black;
+}
+/*ESTILIZAÇÂO INDEX:*/
+
+.card-container{ 
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+border: 1px solid #ccc;
+background-color: rgb(190, 16, 36);
+padding: 20px;
+margin: 10px;
+width: 400px;
+
+}
+
+
+
+
+
+
+table
+{
+    border-collapse: collapse; /*JUMTAR AS BORDAS DAS CELULAS*/
+    width: 80%; /*LARGURA DA TABELA*/
+    margin: 20px auto; /*MARGIN -> MARGEM. CENTRALIZAR A TABELA*/
+}
+th, td{
+    border: 1px solid #ddd; /*BORDA*/
+    padding: 12px; /*ESPAÇO INTERNO*/
+    text-align: left; /*ALINHAR O TEXTO À ESQUERDA*/
+}
+th{
+    background-color: #f2f2f2; /*COR DE FUNDO*/
+    font-weight: bold; /*PESO DA FONTE -> ESTAR EM NEGRITO*/
+}
+
+.botao-inscrever{
+    background-color: #e9af10;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 32px;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+
+
+form{
+    border: 1px solid #ccc;
+    max-width: 500px;
+    padding: 20px;
+    margin: 0 auto;
+}
+footer{
+    background-color: #ccc;
+    color: rgb(255, 0, 51);
+    text-align: center;
+}
+.imagem-rodape{
+    border-radius: 50%;
+    margin: 1.2% ;
+}
